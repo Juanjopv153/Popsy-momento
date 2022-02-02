@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/Pospys2.png">
+    <title>Popsy's</title>
+</head>
+
+<body>
+    <main>
+        <fieldset id="faseUno" align="center">
+            <form action="" id="formu">
+                <img src="./images/Pospys.png" alt="logo Popsy" class="logo">
+                <label for="">nombre: <input type="text" id="nombre" class="input" required></label>
+                <label for="">Apellido: <input type="text" id="apellido" class="input" required></label>
+                <label for="">Direccion: <input type="text" id="direccion" class="input" required></label>
+                <label for="">Nro. Contacto: <input type="number" id="contacto" class="input" required></label>
+                <label for="">Sabor de helado
+                    <select id="select" class="input">
+                        <option value="0">Elije tu sabor de helado</option>
+                    </select></label>
+                <div id="imagen">
+                </div>
+                <div class="botones"> 
+                    <button id="boton">Comprar</button>
+                    <button id="reset" type="reset">Borrar</button>
+                </div>
+            </form>
+        </fieldset>
+        <div class="recibo" id="recibo">
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
